@@ -56,7 +56,7 @@ h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #EAB543;
+    color: #cccac7;
     font-size: 350%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -75,7 +75,7 @@ h2::after {
     height: 2px;
     background-color: #F97F51;
     content: " ";
-    width: 100px;
+    width: 150px;
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -105,7 +105,7 @@ header {
 .hero-text p {
     letter-spacing: 1px;
     font-size: 150%;
-    color: rgb(218, 218, 218);
+    color:#bbaf89;
     font-weight: 200;
 
 }
@@ -167,7 +167,8 @@ header {
 .copy {
     line-height: 160%;
     width: 90%;
-    margin-left: 15%;
+    margin-left: 2%;
+    padding:2%;
 }
 
 .box p {
@@ -201,13 +202,12 @@ header {
     letter-spacing: 3px;
     text-transform: capitalize;
     color: #fff;
-    background-color: #EAB543;
-    border-top-right-radius: 40px;
+    background-color:#263a57;
+    border-top-left-radius: 20px;
 }
 
 .employment-header ul{
     list-style: none;
-
 }
 
 .employment-header {

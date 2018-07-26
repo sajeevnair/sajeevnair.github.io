@@ -109,6 +109,7 @@ header {
     font-weight: 200;
 
 }
+/* NAVIGATION */
 
 .main-nav {
     float: right;
@@ -137,9 +138,30 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #F97F51;
-
+    
 }
 
+/* STICKY NAVIGATION */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.938);
+    box-shadow: 0 2px 2px #e7e7e7;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+
+}
+.sticky .main-nav {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
 /* ICONS */
 
 .icon-big {
@@ -228,4 +250,51 @@ header {
 }
 .employment-dateloc {
     border-top: 1px solid #F97F51;
+}
+
+/* FOOTER  */
+
+footer{
+    background-color: #333;
+    padding: 40px;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-icons{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav :last-child,
+.social-icons :last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li a:link,
+.social-icons li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888888;
+    transition: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+footer p {
+    color: #888;
+    font-size: 90%;
+    margin-top: 25px;
 }

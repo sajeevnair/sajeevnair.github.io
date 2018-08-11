@@ -223,9 +223,8 @@ header {
 .employer-name{
     letter-spacing: 3px;
     text-transform: capitalize;
-    color: #fff;
-    background-color:#263a57;
-    border-top-left-radius: 20px;
+    color: #F97F51;
+    font-size: 120%;
 }
 
 .employment-header ul{
@@ -234,6 +233,7 @@ header {
 
 .employment-header {
     border-bottom: 1px solid #F97F51;
+
 }
 
 .employment-header li {
@@ -246,10 +246,12 @@ header {
 
 .employment{
     margin-bottom: 30px;
-    background-color: #fefdfa
+    background-color: #ede7e7;
 }
 .employment-dateloc {
     border-top: 1px solid #F97F51;
+    color: #ddd;
+    background-color: #F97F51;
 }
 
 /* FOOTER  */

@@ -1,14 +1,14 @@
 /* BASIC SETUP */
-/* font-family: 'Oswald', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
-/* Colors flat ui
-    Honey Glow : #EAB543
-    Rich Gardena: #F97F51
-    Falling Star: #CAD3C8
-    Lavander: #82589F
-    clear chill: #1B9CFC
-    
+/* Headings font-family: 'Lato', sans-serif; */
+/* Text font-family:  'Lora','Open Sans', 'Arial', sans-serif */
+/* 
+    Colors 
+        Background  : #ffffff
+        Big bright orange: #f44d14
+        Text : #3e3f3c
+        card bg: #e7e8e0
 */
+
 * {
     margin: 0;
     padding: 0%;
@@ -19,7 +19,7 @@ html,
 body {
     background-color: #ffffff;
     color: #3e3f3c;
-    font-family:  'Lato','Open Sans', 'Arial', sans-serif;
+    font-family:  'Lora','Open Sans', 'Arial', sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -112,12 +112,13 @@ header {
 /* NAVIGATION */
 nav {
     background-color: rgb(3, 3, 3, 0.4);
-    box-shadow: 0 2px 2px #e7e7e7;
+    box-shadow: 0 1px 5px #e7e8e0b6;
 }
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .main-nav li {
@@ -131,7 +132,7 @@ nav {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%;
+    font-size: 115%;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -140,7 +141,7 @@ nav {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #F97F51;
+    border-bottom: 2px solid #f44d14;
     
 }
 
@@ -188,16 +189,13 @@ nav {
 /* PARAGRAPHS */
 
 .copy {
-    line-height: 160%;
-    width: 90%;
-    margin-left: 2%;
+    line-height: 150%;
+    width: 95%;
+    margin-left: 5%;
     padding:2%;
 }
 
 .box p {
-    line-height: 150%;
-    width: 85%;
-    margin-left: 5%;
     text-align: justify;
 }
 
@@ -215,44 +213,35 @@ nav {
 
 /* SKILLS */
 
-.skill-section {
-    background-color: rgb(250, 250, 250);
-}
+.skill-section {}
 
 
-/* EXPERIENCE */
-.employer-name{
+/* ORG CARD */
+.org-name{
     letter-spacing: 3px;
     text-transform: capitalize;
-    color: #F97F51;
+    color: #f44d14;
     font-size: 120%;
 }
 
-.employment-header ul{
-    list-style: none;
-}
 
-.employment-header {
-    border-bottom: 1px solid #F97F51;
 
-}
-
-.employment-header li {
+.org-skills li {
     display: inline-block;
 }
 
-.employment-details {
+.description {
     line-height: 105%;
 }
 
-.employment{
+.org{
     margin-bottom: 30px;
-    background-color: #ede7e7;
+    background-color: #e7e8e0;
+    border-radius: 25px;
 }
-.employment-dateloc {
-    border-top: 1px solid #F97F51;
-    color: #ddd;
-    background-color: #F97F51;
+.org-details {
+    color: #fff;
+    background-color: #f44d14;
 }
 
 /* FOOTER  */

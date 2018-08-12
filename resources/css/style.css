@@ -1,6 +1,9 @@
 /* BASIC SETUP */
+
 /* Headings font-family: 'Lato', sans-serif; */
+
 /* Text font-family:  'Lora','Open Sans', 'Arial', sans-serif */
+
 /* 
     Colors 
         Background  : #ffffff
@@ -19,13 +22,11 @@ html,
 body {
     background-color: #ffffff;
     color: #3e3f3c;
-    font-family:  'Lora','Open Sans', 'Arial', sans-serif;
+    font-family: 'Lora', 'Open Sans', 'Arial', sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-
 }
-
 
 /* COMPONENTS */
 
@@ -52,7 +53,6 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 
-
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -60,7 +60,6 @@ h1 {
     font-size: 350%;
     word-spacing: 4px;
     letter-spacing: 1px;
-
 }
 
 h2 {
@@ -70,6 +69,7 @@ h2 {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
+
 h2::after {
     display: block;
     height: 2px;
@@ -88,11 +88,11 @@ h3 {
 /* HEADER */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url(img/san-francisco.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(img/san-francisco.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 .hero-text {
@@ -100,20 +100,22 @@ header {
     width: 1140px;
     bottom: 15%;
     left: 3%;
-
 }
+
 .hero-text p {
     letter-spacing: 1px;
     font-size: 150%;
-    color:#d4c594;
+    color: #d4c594;
     font-weight: 200;
-
 }
+
 /* NAVIGATION */
+
 nav {
     background-color: rgb(3, 3, 3, 0.4);
     box-shadow: 0 1px 5px #e7e8e0b6;
 }
+
 .main-nav {
     float: right;
     list-style: none;
@@ -136,34 +138,33 @@ nav {
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
-
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #f44d14;
-    
 }
 
 /* STICKY NAVIGATION */
+
 .sticky {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 8px 0;
-
 }
+
 .sticky .main-nav {
     float: right;
     margin-top: 25px;
     margin-bottom: 10px;
 }
+
 /* ICONS */
 
 .icon-big {
@@ -178,13 +179,11 @@ nav {
     margin-bottom: 10px;
 }
 
-
 .icon-small {
     font-size: 180%;
     display: block;
     margin-bottom: 10px;
 }
-
 
 /* PARAGRAPHS */
 
@@ -192,7 +191,7 @@ nav {
     line-height: 150%;
     width: 95%;
     margin-left: 5%;
-    padding:2%;
+    padding: 2%;
 }
 
 .box p {
@@ -210,21 +209,18 @@ nav {
     list-style: none;
 }
 
-
 /* SKILLS */
 
 .skill-section {}
 
-
 /* ORG CARD */
-.org-name{
+
+.org-name {
     letter-spacing: 3px;
     text-transform: capitalize;
     color: #f44d14;
     font-size: 120%;
 }
-
-
 
 .org-skills li {
     display: inline-block;
@@ -234,11 +230,12 @@ nav {
     line-height: 105%;
 }
 
-.org{
+.org {
     margin-bottom: 30px;
     background-color: #e7e8e0;
     border-radius: 25px;
 }
+
 .org-details {
     color: #fff;
     background-color: #f44d14;
@@ -246,17 +243,17 @@ nav {
 
 /* FOOTER  */
 
-footer{
+footer {
     background-color: #333;
     padding: 40px;
 }
 
-.footer-nav{
+.footer-nav {
     list-style: none;
     float: left;
 }
 
-.social-icons{
+.social-icons {
     list-style: none;
     float: right;
 }
@@ -266,6 +263,7 @@ footer{
     display: inline-block;
     margin-right: 20px;
 }
+
 .footer-nav :last-child,
 .social-icons :last-child {
     margin-right: 0px;
@@ -280,6 +278,7 @@ footer{
     color: #888888;
     transition: color 0.2s;
 }
+
 .footer-nav li a:hover,
 .footer-nav li a:active {
     color: #ddd;

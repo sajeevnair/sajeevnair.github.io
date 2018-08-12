@@ -17,9 +17,9 @@
 
 html,
 body {
-    background-color: #f5f5f5;
-    color: #333333;
-    font-family:  'Open Sans', 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #3e3f3c;
+    font-family:  'Lato','Open Sans', 'Arial', sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -49,14 +49,14 @@ h2,
 h3 {
     font-weight: 300;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: rgb(245, 80, 30);
+    color: #f44d14;
     font-size: 350%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -73,7 +73,7 @@ h2 {
 h2::after {
     display: block;
     height: 2px;
-    background-color: #F97F51;
+    background-color: #f44d14;
     content: " ";
     width: 150px;
     margin: 0 auto;

@@ -12,7 +12,7 @@ $(document).ready(
 
         },
         {
-            offset: '25%'
+            offset: '15%'
         });
 
         

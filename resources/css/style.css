@@ -6,10 +6,10 @@
 
 /* 
     Colors 
-        Background  : #ffffff
+        Background  : #e8e8e8
         Big bright orange: #f44d14
         Text : #3e3f3c
-        card bg: #e7e8e0
+        card bg: ##e0e0e0
 */
 
 * {
@@ -20,7 +20,7 @@
 
 html,
 body {
-    background-color: #ffffff;
+    background-color: #e8e8e8;
     color: #3e3f3c;
     font-family: 'Lora', 'Open Sans', 'Arial', sans-serif;
     font-size: 20px;
@@ -57,7 +57,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #f44d14;
-    font-size: 350%;
+    font-size: 250%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -75,9 +75,9 @@ h2::after {
     height: 2px;
     background-color: #f44d14;
     content: " ";
-    width: 150px;
+    width: 25%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 h3 {
@@ -88,7 +88,7 @@ h3 {
 /* HEADER */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(img/san-francisco.jpg);
+    background-image: url(img/san-francisco.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -97,23 +97,43 @@ header {
 
 .hero-text {
     position: absolute;
-    width: 1140px;
+    width: 400px;
     bottom: 15%;
     left: 3%;
+    text-align: center;
+    background-color: #30384687;
+    padding: 5px;
+    list-style: none;
 }
 
-.hero-text p {
-    letter-spacing: 1px;
-    font-size: 150%;
-    color: #d4c594;
-    font-weight: 200;
+.hero-text-subtitle {
+    font-size: 120%;
+    color: #fff;
+}
+
+.hero-text img {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.hero-text li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hero-text li a:link,
+.hero-text li a:visited {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
 }
 
 /* NAVIGATION */
 
 nav {
     background-color: rgb(3, 3, 3, 0.4);
-    box-shadow: 0 1px 5px #e7e8e0b6;
+    box-shadow: 0 1px 5px #e0e0e0;
 }
 
 .main-nav {
@@ -185,6 +205,14 @@ nav {
     margin-bottom: 10px;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
 /* PARAGRAPHS */
 
 .copy {
@@ -192,10 +220,6 @@ nav {
     width: 95%;
     margin-left: 5%;
     padding: 2%;
-}
-
-.box p {
-    text-align: justify;
 }
 
 /* SKILLS */
@@ -232,13 +256,12 @@ nav {
 
 .org {
     margin-bottom: 30px;
-    background-color: #e7e8e0;
-    border-radius: 25px;
+    background-color: #e0e0e0;
 }
 
 .org-details {
     color: #fff;
-    background-color: #f44d14;
+    background-color: #4d6582;
 }
 
 /* FOOTER  */

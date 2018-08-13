@@ -53,14 +53,12 @@
     }
     .mobile-nav-icon {
         display: inline-block;
+        margin-top: 5px;
     }
     .main-nav {
         display: none;
-    }
-    .main-nav {
-        float: left;
-        margin-top: 25px;
-        margin-left: 50%;
+        margin-top: 5px;
+        margin-left: 5px;
         padding: 5px 0;
         margin-bottom: 5px;
     }
@@ -75,9 +73,8 @@
         font-size: 100%;
     }
     .sticky .main-nav {
-        float: left;
-        margin-top: 25px;
-        margin-left: 50%;
+        margin-top: 5px;
+        margin-left: 5px;
         padding: 5px 0;
         margin-bottom: 5px;
     }

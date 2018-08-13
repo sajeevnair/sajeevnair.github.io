@@ -168,7 +168,7 @@ nav {
 /* Mobile Navi */
 
 .mobile-nav-icon {
-    float: right;
+    float: left;
     margin-top: 25px;
     cursor: pointer;
     display: none;
@@ -179,7 +179,9 @@ nav {
     color: white;
 }
 
-#experience, #education, #skills  {
+#experience,
+#education,
+#skills {
     padding: 100px;
     margin: -60px;
 }

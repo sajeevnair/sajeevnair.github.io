@@ -1,0 +1,32 @@
+/* displays like iPad Pro  1024 - 1200px */
+@media only screen and (max-width: 1280px) {
+    .hero-text {
+        padding: 0 2%; 
+    }
+    .row {
+        padding: 0 2%;
+    }
+    
+}
+
+/* displays like iPad 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* tabs 481 - 767  */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Mobile displays like Pixel 2, iPhone x 0 - 480px */
+@media only screen and (max-width: 480px) {
+    .hero-text {
+        width: 100%;
+        font-size: 100%;
+    }
+    h1 {
+        font-size:105%;
+    }
+}
+

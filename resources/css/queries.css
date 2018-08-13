@@ -16,17 +16,50 @@
 
 /* tabs 481 - 767  */
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+    .icon-small {
+        font-size: 150%;
+    }
+
+    h1 {
+        font-size: 125%;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 115%;
+    }
+    h3 {
+        font-size: 100%;
+    }
+
+
 
 }
 
 /* Mobile displays like Pixel 2, iPhone x 0 - 480px */
 @media only screen and (max-width: 480px) {
     .hero-text {
-        width: 100%;
+        width: 95%;
         font-size: 100%;
     }
-    h1 {
-        font-size:105%;
-    }
-}
 
+    .hero-text-subtitle {
+        font-size: 110%;
+        color: #fff;
+    }
+
+    .hero-text img {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .hero-text li a:link,
+    .hero-text li a:visited {
+        font-size: 85%;
+    }
+
+
+    
+}

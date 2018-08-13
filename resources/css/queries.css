@@ -20,6 +20,13 @@
 /* tabs 481 - 825  */
 
 @media only screen and (max-width: 825px) {
+    #experience,
+    #education,
+    #skills {
+        padding: 40px;
+        margin: -15px;
+    }
+
     .hero-text {
         width: 280px;
         bottom: 2px;
@@ -85,6 +92,15 @@
         padding: 2px 0;
         font-size: 100%;
     }
+
+    .copy {
+        font-size: 85%;
+    }
+    .copy li{
+        list-style: none;
+        padding-bottom: 10px;
+    }
+
 }
 
 /* Mobile displays like Pixel 2, iPhone x 0 - 480px */

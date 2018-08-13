@@ -1,28 +1,35 @@
 /* displays like iPad Pro  1024 - 1200px */
+
 @media only screen and (max-width: 1280px) {
     .hero-text {
-        padding: 0 2%; 
+        padding: 0 2%;
     }
     .row {
         padding: 0 2%;
     }
-    
 }
 
 /* displays like iPad 768 - 1023px */
-@media only screen and (max-width: 1023px) {
 
+@media only screen and (max-width: 1023px) {
+    .main-nav {
+        display: inline-block;
+    }
 }
 
 /* tabs 481 - 767  */
+
 @media only screen and (max-width: 767px) {
+    .hero-text {
+        width: 350px;
+        bottom: 2px;
+    }
     body {
         font-size: 18px;
     }
     .icon-small {
         font-size: 150%;
     }
-
     h1 {
         font-size: 125%;
         margin-bottom: 5px;
@@ -33,33 +40,45 @@
     h3 {
         font-size: 100%;
     }
-
-
-
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+        padding: 5px 0;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+    .sticky .main-nav {
+        float: left;
+        margin-top: 10px;
+    }
 }
 
 /* Mobile displays like Pixel 2, iPhone x 0 - 480px */
-@media only screen and (max-width: 480px) {
-    .hero-text {
-        width: 95%;
-        font-size: 100%;
-    }
 
+@media only screen and (max-width: 480px) {
     .hero-text-subtitle {
         font-size: 110%;
         color: #fff;
     }
-
     .hero-text img {
         width: 50%;
         border-radius: 50%;
     }
-
     .hero-text li a:link,
     .hero-text li a:visited {
         font-size: 85%;
     }
-
-
-    
 }

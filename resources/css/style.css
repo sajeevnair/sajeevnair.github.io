@@ -132,11 +132,6 @@ header {
 
 /* NAVIGATION */
 
-nav {
-    background-color: rgb(3, 3, 3, 0.7);
-    -webkit-box-shadow: 0 1px 5px #e0e0e0;
-            box-shadow: 0 1px 5px #e0e0e0;
-}
 
 .main-nav {
     float: right;
@@ -196,6 +191,9 @@ nav {
     left: 0;
     width: 100%;
     z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 5px #e0e0e0;
+            box-shadow: 0 1px 5px #e0e0e0;
 }
 
 .sticky .main-nav li a:link,

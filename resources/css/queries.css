@@ -1,6 +1,11 @@
 /* displays like iPad Pro  1024 - 1200px */
 
 @media only screen and (max-width: 1280px) {
+    .main-nav {
+        display: inline-block;
+    }
+
+    
     .hero-text {
         padding: 0 2%;
     }

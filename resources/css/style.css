@@ -15,7 +15,8 @@
 * {
     margin: 0;
     padding: 0%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html,
@@ -133,7 +134,8 @@ header {
 
 nav {
     background-color: rgb(3, 3, 3, 0.7);
-    box-shadow: 0 1px 5px #e0e0e0;
+    -webkit-box-shadow: 0 1px 5px #e0e0e0;
+            box-shadow: 0 1px 5px #e0e0e0;
 }
 
 .main-nav {
@@ -318,6 +320,7 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888888;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
